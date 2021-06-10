@@ -1,0 +1,159 @@
+/* Untuk Tablet */
+
+@media all and (max-width: 1000px) {
+        .menu {
+            margin-right: 10px;
+            color: black;
+        }
+
+        .menu a {
+            margin-right: 20px;
+        }
+
+        .header-left {
+            margin-right: 10px;
+        }
+
+        .header-right {
+            margin-left: 5px;
+
+        }
+
+        .header-input input {
+            display: none;
+        }
+
+        .container {
+            max-width: 1170px;
+            width: 100%;
+            margin-left: 50px;
+        }
+
+        .about {
+            font-size: 25px;
+        }
+
+        .lesson {
+            width: 50%;
+            margin-bottom: 50px;
+        }
+      
+        .top-wrapper h1 {
+            font-size: 32px;
+        }
+      
+        .heading h2 {
+            font-size: 20px;
+        }
+
+        .container1 {
+           padding: 0 80px;
+        }
+
+        .container2 p {
+            margin-top: 300px;
+        }
+    }
+
+
+/* Untuk Smartphone */
+
+@media all and (max-width: 670px) {
+    .container {
+        max-width: 1170px;
+        width: 100%;
+        margin-left: 50px;
+        }
+
+        .menu {
+            display: none;
+        }
+        
+        .menu-icon {
+            display: block;
+        }
+        .top-wrapper h1 {
+            font-size: 40px;
+            line-height: 15px;
+        }
+        .top-wrapper p {
+            font-size: 10px;
+            line-height: 10px;
+        }
+
+        .lesson-wrapper h2, .lesson-icon {
+            padding-right: 75px; 
+        }
+
+        .lesson-icon p {
+            width: 85%;
+        }
+
+        .lesson  {
+        width: 100%;
+        padding-right: 75px;
+        }
+      
+        footer {
+        font-size: 10px;
+        text-align: center;
+        }
+
+        .container1 {
+           padding: 0 80px;
+        }
+
+        .footer-logo h1 {
+            margin: 0 20px;
+            padding: 20px 20px;
+        }
+
+        .footer-menu h3 {
+           padding-top: 20px; 
+        }
+
+        .footer-contact h3 {
+            padding: 0 100px;
+        }
+
+        .footer-contact p {
+            padding: 0 100px;
+        }
+
+        .container2 p {
+          margin-top: 1200px;
+        }
+        
+         .top-wrapper {
+        text-align: left;
+      }
+       
+      .header-right {
+        display: none;
+      }
+
+      .menu {
+        display: none;
+      }
+   
+      .menu-icon {
+        display: block;
+      }
+      
+      .top-wrapper h1 {
+        font-size: 24px;
+        line-height: 36px;
+      }
+      
+      .top-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      .about h2, p {
+        font-size: 20px;
+        padding-right: 75px;
+
+      }
+  
+}
